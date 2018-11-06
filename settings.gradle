@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 include ':FtcRobotController', ':openCVLibrary3'
+=======
+include ':FtcRobotController', ':openCVLibrary320', ':DogeCV'
+>>>>>>> parent of fa68ccc... Added google()
 include ':TeamCode'

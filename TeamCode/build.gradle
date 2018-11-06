@@ -11,15 +11,20 @@
 // Include common definitions from above.
 apply from: '../build.common.gradle'
 dependencies {
+<<<<<<< HEAD
     implementation project(':openCVLibrary3')
     implementation project(':DogeCV')
     implementation project(':FtcRobotController')
 }
 repositories {
     google()
+=======
+    compile project(':openCVLibrary320')
+    compile project(':DogeCV')
+>>>>>>> parent of fa68ccc... Added google()
 }
 android {
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '26.0.2'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
