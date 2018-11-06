@@ -11,11 +11,14 @@
 // Include common definitions from above.
 apply from: '../build.common.gradle'
 dependencies {
-    compile project(':openCVLibrary320')
-    compile project(':DogeCV')
+    implementation project(':openCVLibrary3')
+    implementation project(':DogeCV')
+}
+repositories {
+    google()
 }
 android {
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '28.0.3'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
